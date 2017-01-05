@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PagingDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>8F1360BA1E1E81740064C688</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F1360CF1E1E81860064C688</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F1360E21E1E81860064C688</key>
 		<dict>
 			<key>primary</key>
 			<true/>

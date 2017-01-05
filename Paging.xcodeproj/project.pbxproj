@@ -10,6 +10,18 @@
 		8F1360BC1E1E81740064C688 /* Paging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1360B21E1E81740064C688 /* Paging.framework */; };
 		8F1360C11E1E81740064C688 /* PagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1360C01E1E81740064C688 /* PagingTests.swift */; };
 		8F1360C31E1E81740064C688 /* Paging.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1360B51E1E81740064C688 /* Paging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F1360D31E1E81860064C688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1360D21E1E81860064C688 /* AppDelegate.swift */; };
+		8F1360D51E1E81860064C688 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1360D41E1E81860064C688 /* ViewController.swift */; };
+		8F1360D81E1E81860064C688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1360D61E1E81860064C688 /* Main.storyboard */; };
+		8F1360DA1E1E81860064C688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1360D91E1E81860064C688 /* Assets.xcassets */; };
+		8F1360DD1E1E81860064C688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1360DB1E1E81860064C688 /* LaunchScreen.storyboard */; };
+		8F1360E81E1E81860064C688 /* PagingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1360E71E1E81860064C688 /* PagingDemoTests.swift */; };
+		8F1360F11E1E81AF0064C688 /* PagingCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1360F01E1E81AF0064C688 /* PagingCollectionViewFlowLayout.swift */; };
+		8F1360F31E1E848F0064C688 /* Paging.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1360F21E1E848F0064C688 /* Paging.storyboard */; };
+		8F1360F51E1E84A60064C688 /* PagingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1360F41E1E84A60064C688 /* PagingCollectionViewController.swift */; };
+		8F1360F61E1E851B0064C688 /* Paging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1360B21E1E81740064C688 /* Paging.framework */; };
+		8F1360F71E1E851B0064C688 /* Paging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1360B21E1E81740064C688 /* Paging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F1360FC1E1E85CB0064C688 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1360FB1E1E85CB0064C688 /* Geometry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +32,35 @@
 			remoteGlobalIDString = 8F1360B11E1E81740064C688;
 			remoteInfo = Paging;
 		};
+		8F1360E41E1E81860064C688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1360A91E1E81740064C688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1360CF1E1E81860064C688;
+			remoteInfo = PagingDemo;
+		};
+		8F1360F81E1E851B0064C688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1360A91E1E81740064C688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F1360B11E1E81740064C688;
+			remoteInfo = Paging;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F1360FA1E1E851B0064C688 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8F1360F71E1E851B0064C688 /* Paging.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8F1360B21E1E81740064C688 /* Paging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Paging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +69,20 @@
 		8F1360BB1E1E81740064C688 /* PagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1360C01E1E81740064C688 /* PagingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingTests.swift; sourceTree = "<group>"; };
 		8F1360C21E1E81740064C688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1360D01E1E81860064C688 /* PagingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1360D21E1E81860064C688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F1360D41E1E81860064C688 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F1360D71E1E81860064C688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F1360D91E1E81860064C688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F1360DC1E1E81860064C688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F1360DE1E1E81860064C688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1360E31E1E81860064C688 /* PagingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1360E71E1E81860064C688 /* PagingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingDemoTests.swift; sourceTree = "<group>"; };
+		8F1360E91E1E81860064C688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1360F01E1E81AF0064C688 /* PagingCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		8F1360F21E1E848F0064C688 /* Paging.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Paging.storyboard; sourceTree = "<group>"; };
+		8F1360F41E1E84A60064C688 /* PagingCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewController.swift; sourceTree = "<group>"; };
+		8F1360FB1E1E85CB0064C688 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +101,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F1360CD1E1E81860064C688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1360F61E1E851B0064C688 /* Paging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1360E01E1E81860064C688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +124,8 @@
 			children = (
 				8F1360B41E1E81740064C688 /* Paging */,
 				8F1360BF1E1E81740064C688 /* PagingTests */,
+				8F1360D11E1E81860064C688 /* PagingDemo */,
+				8F1360E61E1E81860064C688 /* PagingDemoTests */,
 				8F1360B31E1E81740064C688 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +135,8 @@
 			children = (
 				8F1360B21E1E81740064C688 /* Paging.framework */,
 				8F1360BB1E1E81740064C688 /* PagingTests.xctest */,
+				8F1360D01E1E81860064C688 /* PagingDemo.app */,
+				8F1360E31E1E81860064C688 /* PagingDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +146,8 @@
 			children = (
 				8F1360B51E1E81740064C688 /* Paging.h */,
 				8F1360B61E1E81740064C688 /* Info.plist */,
+				8F1360FB1E1E85CB0064C688 /* Geometry.swift */,
+				8F1360F01E1E81AF0064C688 /* PagingCollectionViewFlowLayout.swift */,
 			);
 			path = Paging;
 			sourceTree = "<group>";
@@ -84,6 +159,30 @@
 				8F1360C21E1E81740064C688 /* Info.plist */,
 			);
 			path = PagingTests;
+			sourceTree = "<group>";
+		};
+		8F1360D11E1E81860064C688 /* PagingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F1360D21E1E81860064C688 /* AppDelegate.swift */,
+				8F1360D41E1E81860064C688 /* ViewController.swift */,
+				8F1360D61E1E81860064C688 /* Main.storyboard */,
+				8F1360F21E1E848F0064C688 /* Paging.storyboard */,
+				8F1360F41E1E84A60064C688 /* PagingCollectionViewController.swift */,
+				8F1360D91E1E81860064C688 /* Assets.xcassets */,
+				8F1360DB1E1E81860064C688 /* LaunchScreen.storyboard */,
+				8F1360DE1E1E81860064C688 /* Info.plist */,
+			);
+			path = PagingDemo;
+			sourceTree = "<group>";
+		};
+		8F1360E61E1E81860064C688 /* PagingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F1360E71E1E81860064C688 /* PagingDemoTests.swift */,
+				8F1360E91E1E81860064C688 /* Info.plist */,
+			);
+			path = PagingDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +235,43 @@
 			productReference = 8F1360BB1E1E81740064C688 /* PagingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8F1360CF1E1E81860064C688 /* PagingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1360EA1E1E81860064C688 /* Build configuration list for PBXNativeTarget "PagingDemo" */;
+			buildPhases = (
+				8F1360CC1E1E81860064C688 /* Sources */,
+				8F1360CD1E1E81860064C688 /* Frameworks */,
+				8F1360CE1E1E81860064C688 /* Resources */,
+				8F1360FA1E1E851B0064C688 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1360F91E1E851B0064C688 /* PBXTargetDependency */,
+			);
+			name = PagingDemo;
+			productName = PagingDemo;
+			productReference = 8F1360D01E1E81860064C688 /* PagingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F1360E21E1E81860064C688 /* PagingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1360ED1E1E81860064C688 /* Build configuration list for PBXNativeTarget "PagingDemoTests" */;
+			buildPhases = (
+				8F1360DF1E1E81860064C688 /* Sources */,
+				8F1360E01E1E81860064C688 /* Frameworks */,
+				8F1360E11E1E81860064C688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1360E51E1E81860064C688 /* PBXTargetDependency */,
+			);
+			name = PagingDemoTests;
+			productName = PagingDemoTests;
+			productReference = 8F1360E31E1E81860064C688 /* PagingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,12 +285,24 @@
 					8F1360B11E1E81740064C688 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9HQR3Y4WE5;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8F1360BA1E1E81740064C688 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9HQR3Y4WE5;
 						ProvisioningStyle = Automatic;
+					};
+					8F1360CF1E1E81860064C688 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9HQR3Y4WE5;
+						ProvisioningStyle = Automatic;
+					};
+					8F1360E21E1E81860064C688 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9HQR3Y4WE5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F1360CF1E1E81860064C688;
 					};
 				};
 			};
@@ -164,6 +312,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8F1360A81E1E81740064C688;
 			productRefGroup = 8F1360B31E1E81740064C688 /* Products */;
@@ -172,6 +321,8 @@
 			targets = (
 				8F1360B11E1E81740064C688 /* Paging */,
 				8F1360BA1E1E81740064C688 /* PagingTests */,
+				8F1360CF1E1E81860064C688 /* PagingDemo */,
+				8F1360E21E1E81860064C688 /* PagingDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +342,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F1360CE1E1E81860064C688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1360DD1E1E81860064C688 /* LaunchScreen.storyboard in Resources */,
+				8F1360DA1E1E81860064C688 /* Assets.xcassets in Resources */,
+				8F1360F31E1E848F0064C688 /* Paging.storyboard in Resources */,
+				8F1360D81E1E81860064C688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1360E11E1E81860064C688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,6 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1360F11E1E81AF0064C688 /* PagingCollectionViewFlowLayout.swift in Sources */,
+				8F1360FC1E1E85CB0064C688 /* Geometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +380,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F1360CC1E1E81860064C688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1360D51E1E81860064C688 /* ViewController.swift in Sources */,
+				8F1360D31E1E81860064C688 /* AppDelegate.swift in Sources */,
+				8F1360F51E1E84A60064C688 /* PagingCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1360DF1E1E81860064C688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1360E81E1E81860064C688 /* PagingDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,7 +406,36 @@
 			target = 8F1360B11E1E81740064C688 /* Paging */;
 			targetProxy = 8F1360BD1E1E81740064C688 /* PBXContainerItemProxy */;
 		};
+		8F1360E51E1E81860064C688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1360CF1E1E81860064C688 /* PagingDemo */;
+			targetProxy = 8F1360E41E1E81860064C688 /* PBXContainerItemProxy */;
+		};
+		8F1360F91E1E851B0064C688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F1360B11E1E81740064C688 /* Paging */;
+			targetProxy = 8F1360F81E1E851B0064C688 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F1360D61E1E81860064C688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1360D71E1E81860064C688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F1360DB1E1E81860064C688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1360DC1E1E81860064C688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8F1360C41E1E81740064C688 /* Debug */ = {
@@ -322,6 +540,7 @@
 		8F1360C71E1E81740064C688 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
@@ -334,6 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.Paging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +561,7 @@
 		8F1360C81E1E81740064C688 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
@@ -360,6 +581,7 @@
 		8F1360CA1E1E81740064C688 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
 				INFOPLIST_FILE = PagingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,12 +594,71 @@
 		8F1360CB1E1E81740064C688 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
 				INFOPLIST_FILE = PagingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.PagingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8F1360EB1E1E81860064C688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
+				INFOPLIST_FILE = PagingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.PagingDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8F1360EC1E1E81860064C688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
+				INFOPLIST_FILE = PagingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.PagingDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8F1360EE1E1E81860064C688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
+				INFOPLIST_FILE = PagingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.PagingDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagingDemo.app/PagingDemo";
+			};
+			name = Debug;
+		};
+		8F1360EF1E1E81860064C688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9HQR3Y4WE5;
+				INFOPLIST_FILE = PagingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.silverback-it.PagingDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagingDemo.app/PagingDemo";
 			};
 			name = Release;
 		};
@@ -406,6 +687,22 @@
 			buildConfigurations = (
 				8F1360CA1E1E81740064C688 /* Debug */,
 				8F1360CB1E1E81740064C688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F1360EA1E1E81860064C688 /* Build configuration list for PBXNativeTarget "PagingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1360EB1E1E81860064C688 /* Debug */,
+				8F1360EC1E1E81860064C688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F1360ED1E1E81860064C688 /* Build configuration list for PBXNativeTarget "PagingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1360EE1E1E81860064C688 /* Debug */,
+				8F1360EF1E1E81860064C688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
